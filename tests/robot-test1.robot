@@ -4,6 +4,7 @@ Library           OperatingSystem
 
 *** Variables ***
 ${MESSAGE}        Hello, world!
+${MESSAGE2}        Hello, world Again!
 
 *** Test Cases ***
 My Test
@@ -13,6 +14,7 @@ My Test
 
 Another Test
     Should Be Equal    ${MESSAGE}    Hello, world!
+    Should Be Equal    ${MESSAGE2}    Hello, world Again!
 
 *** Keywords ***
 My Keyword
